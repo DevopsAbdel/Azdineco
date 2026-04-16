@@ -5,13 +5,6 @@ import { RouterProvider, createRouter } from "@tanstack/react-router";
 // Import the generated route tree
 import { routeTree } from "./routeTree.gen";
 
-// Handle redirect from 404.html
-if (sessionStorage.redirect) {
-  const redirect = sessionStorage.redirect;
-  delete sessionStorage.redirect;
-  window.history.replaceState(null, "", redirect);
-}
-
 // Create a new router instance
 const router = createRouter({ routeTree });
 
