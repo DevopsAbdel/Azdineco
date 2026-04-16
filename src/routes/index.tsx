@@ -96,7 +96,7 @@ function LandingPage() {
       <header className="sticky top-0 z-50 bg-brand-dark shadow-lg">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
           <a href="#hero" className="flex items-center gap-3">
-            <img src="/logo-azdine-eco.jpg" alt="Logo Azdine Éco" className="h-10 w-10 rounded-full object-cover" />
+            <img src="/logo-azdine-eco.jpg" alt="Logo Azdine Éco" className="h-12 w-auto object-contain" />
             <span className="text-lg font-bold text-brand-gold">Azdine Éco</span>
           </a>
           <nav className="hidden items-center gap-6 text-sm font-medium text-brand-gold-light md:flex">
@@ -216,7 +216,7 @@ function LandingPage() {
       {/* ── Formateur ── */}
       <section className="bg-secondary/50 px-4 py-16 md:py-24">
         <div className="mx-auto max-w-4xl text-center">
-          <img src="/logo-azdine-eco.jpg" alt="Prof. Azdine Éco" className="mx-auto mb-6 h-28 w-28 rounded-full border-4 border-primary object-cover shadow-lg" />
+          <img src="/logo-azdine-eco.jpg" alt="Prof. Azdine Éco" className="mx-auto mb-6 h-32 w-auto object-contain" />
           <h2 className="mb-4 text-2xl font-bold text-foreground md:text-3xl">Prof. Azdine Éco</h2>
           <p className="mx-auto mb-6 max-w-xl text-muted-foreground">
             Formateur expérimenté en comptabilité et gestion, spécialisé dans l'enseignement pratique.
@@ -387,8 +387,8 @@ function LandingPage() {
             <div className="aspect-video overflow-hidden rounded-2xl shadow-lg">
               <iframe
                 className="h-full w-full"
-                src="https://www.youtube.com/embed?listType=user_uploads&list=Azdineeco"
-                title="Azdine Éco — Vidéos de formation"
+                src="https://www.youtube.com/embed/GKyJHYWKZks"
+                title="Azdine Éco — Introduction à la comptabilité"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 loading="lazy"
@@ -468,7 +468,7 @@ function LandingPage() {
           <div className="grid gap-8 md:grid-cols-3">
             <div>
               <div className="mb-4 flex items-center gap-3">
-                <img src="/logo-azdine-eco.jpg" alt="Logo Azdine Éco" className="h-10 w-10 rounded-full object-cover" />
+                <img src="/logo-azdine-eco.jpg" alt="Logo Azdine Éco" className="h-12 w-auto object-contain" />
                 <span className="text-lg font-bold text-brand-gold">Azdine Éco</span>
               </div>
               <p className="text-sm text-brand-gold-light/60">
